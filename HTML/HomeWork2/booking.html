@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+</head>
+
+<body>
+    <form action="" style="border: solid black; width: 335px;">
+        <div class="booking" style="border: dotted black; width: 300px; padding: 10px; margin: 5px;">
+            <div class="flyingFrom"  style="display: inline-block; width: 49%;">
+                <label for="flyFrom">Flying from</label><br>
+                <select name="flyFrom" id="">
+                    <option value="Karachi,Pakistan">Karachi,Pakistan</option>
+                    <option value="Roied,Thailand">Roied,Thailand</option>
+                    <option value="Tokyo,Japan">Tokyo,Japan</option>
+                    <option value="Newyork,USA">Newyork,USA</option>
+                    <option value="Vientiane,Lao">Vientiane,Lao</option>
+                </select>
+            </div>
+            <div class="flyingTo" style="display: inline-block; width: 49%;">
+                <label for="flyTo">To</label><br>
+                <select name="flyTo" id="">
+                    <option value="Karachi,Pakistan">Karachi,Pakistan</option>
+                    <option value="Roied,Thailand">Roied,Thailand</option>
+                    <option value="Tokyo,Japan">Tokyo,Japan</option>
+                    <option value="Newyork,USA">Newyork,USA</option>
+                    <option value="Vientiane,Lao">Vientiane,Lao</option>
+                </select>
+            </div><br><br>
+            <div class="departing" style="width: 49%; display: inline-block;">
+                <label for="birthday">Departing</label><br>
+                <input type="date" id="departing" name="departing" style="width: 80%;">
+            </div>
+            <div class="return" style="display: inline-block; width: 49%;">
+                <label for="birthday">Return</label><br>
+                <input type="date" id="return" name="return" style="width: 80%;">
+            </div><br><br>
+            <div class="quantity">
+                <div class="adult" style="display: inline-block; width: 24%;">
+                    <label for="adult">Adult</label><br>
+                    <input type="number" id="adult" name="adult" min="0" value="0"style="width : 49px;">
+                </div>
+                <div class="child" style="display: inline-block; width: 24%;">
+                    <label for="adult">Child</label><br>
+                    <input type="number" id="child" name="child" min="0" value="0" style="width : 49px;">
+                </div>
+                <div class="infact" style="display: inline-block; width: 24%;">
+                    <label for="infact">Infact</label><br>
+                    <input type="number" id="infact" name="infact" min="0" value="0" style="width : 49px;">
+                </div>
+                <div class="currency" style="display: inline-block; width: 24%;">
+                    <label for="Currency">Currency</label><br>
+                    <select name="Currency" id="">
+                        <option value="PKR">PKR</option>
+                        <option value="Bath">Bath</option>
+                        <option value="Pond">Pond</option>
+                        <option value="Dollar">Dollar</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <button type="submit" id="search" value="search" style="margin: 5px;">SEARCH</button>
+    </form>
+</body>
+
+</html>

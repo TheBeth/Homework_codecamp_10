@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 19</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let player1 = Number(prompt('Input Player1 number : '));
+    let player2 = prompt('Input Player2 number : ');
+    for(let i = 0 ; i < 10 ; i++){
+        if( player1 == player2 ){
+            alert("Collect!!")
+            break;
+        }else if(player1 > player2){
+            alert(`Player1's number is greater than ${player2}`)
+        }else if(player1 < player2){
+            alert(`Player1's number is lower than ${player2}`)
+        }else{
+            alert("Not a number")
+        }
+        player2 = prompt('Input Player2 number : ');
+    }
+</script>
+</html>

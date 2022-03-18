@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 24</title>
+</head>
+<body>
+
+</body>
+<script>
+    let n = +prompt("Input : ");
+    let a = "";
+    let s = 0;
+    let b = 1;
+    for(let i = n; i > 0; i--){
+        for(let j = 2 ; j < n+2 ; j++){
+            if(j <= i){
+                s = "_"
+            }else{
+                s = b++
+            }
+            a += s
+        }
+        for(let j = n; j > 1 ; j--){
+            if(i < j){
+                s = b++
+            }else{
+                s = "_"
+            }
+            a += s
+        }
+        a += "\n"
+    }
+    for(let i = 2; i < n+1; i++){
+        for(let j = 2 ; j < n+2 ; j++){
+            if(j <= i){
+                s = "_"
+            }else{
+                s = b++
+            }
+            a += s
+        }
+        for(let j = n; j > 1 ; j--){
+            if(i < j){
+                s = b++
+            }else{
+                s = "_"
+            }
+            a += s
+        }
+        a += "\n"
+    }
+    alert(a)
+    console.log(a)
+</script>
+</html>

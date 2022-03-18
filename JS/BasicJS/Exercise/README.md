@@ -200,7 +200,7 @@ switch (browser) {
 }
 ```
 ---
-### Exercise 24
+### Exercise 21
 - แปลง Code ดังกล่าวเป็น Switch cases
 ```js
 let a = +prompt('a?', '');

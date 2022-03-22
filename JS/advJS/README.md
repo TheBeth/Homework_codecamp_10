@@ -141,6 +141,26 @@ alert( random(1, 5) ); // 4.3435234525
 ที่ถูกส่งเข้ามามีความยาวเกิน maxlength ไหม ถ้าเกินให้แทน ข้อความต่อจากนั้นด้วย “...”
 4. เขียนฟังก์ชันที่ extractCurrencyValue(string, rate) โดยที่ฟังก์ชันดังกล่าวจะแปลง string ที่เป็นค่าเงิน dollar 
 ให้เป็น number ที่มีค่าเป็นเงินบาทไทย โดยอ้างอิง  rate จาก parameters ตัวที่สอง ที่ส่งมาให้"
+---
+### Exercise 09
+1.ผลลัพธ์ของความยาว array คืออะไร
 
+2.ให้ทำตามขั้นตอนต่อไปนี้
+- สร้าง array ชื่อ styles ที่มี items ชื่อ “Jazz” และ “Blues”
+- เพิ่ม “Rock-n-Roll” ต่อท้าย
+- นำค่า Classics ไปทับค่าตรงกลางของ Array
+- นำ items ตัวแรกออกมาและลบ items ตัวนั้นออกจาก array
+- เพิ่ม “Rap” และ “Reggae” ไปข้างหน้าของ Array
 
+3.เขียนฟังก์ชัน sumInput() ที่
+- ใช้ propmt รับ value มาเก็บใน array
+- หยุดถามเมื่อเจอค่าที่ไม่ใช่ ตัวเลข
+- คำนวณผลรวมของตัวเลขทั้งหมดใน Array
 
+4.Maximal contiguous subarray (Optional)
+- ให้เขียนฟังก์ชัน getMaxSubSum(arr) ที่ return ผลรวมของ subarray ที่มากที่สุดที่ติดกัน
+---
+### Exercice 10
+1.ให้สร้าง array2 จาก array1 ตามที่โจทย์กำหนด โดยใช้ฟังก์ชัน Array.map()
+
+2.ให้สร้าง array2 จาก array1 ตามที่โจทย์กำหนด โดยใช้ฟังก์ชัน Array.filter()"

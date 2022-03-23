@@ -164,3 +164,52 @@ alert( random(1, 5) ); // 4.3435234525
 1.ให้สร้าง array2 จาก array1 ตามที่โจทย์กำหนด โดยใช้ฟังก์ชัน Array.map()
 
 2.ให้สร้าง array2 จาก array1 ตามที่โจทย์กำหนด โดยใช้ฟังก์ชัน Array.filter()"
+
+---
+### Exercise 11
+1. ให้ arr เป็น Array
+สร้าง function ชื่อ unique(arr) ให้คืนค่าเป็น unique items ของ arr 
+```
+function unique(arr) {
+  /* your code */
+}
+
+let values = ["Hare", "Krishna", "Hare", "Krishna", "Krishna", "Krishna", "Hare", "Hare", ":-O" ];
+
+alert( unique(values) ); // Hare, Krishna, :-O
+```
+
+2.	Anagram เป็นตัวอักษรที่มีจำนวนตัวอักษรแต่ละตัวที่เท่ากัน แต่เรียงไม่เหมือนกัน ( Optional )
+```
+nap - pan
+ear - are - era
+cheaters - hectares - teachers
+
+let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+alert( aclean(arr) ); // "nap,teachers,ear" or "PAN,cheaters,era"
+```
+
+3.	เราได้ array จาก map.keys() แต่ไม่สามารถใช้ push ได้
+	เราจะทำยังไงให้ keys.push สามารถทำงานได้
+---
+### Exercise 12
+1. กำหนดให้ salaries เป็น Object
+ให้เขียนฟังก์ชัน sumSalaries(salaries) ที่คืนค่าเป็นผลผมรวมของเงินเดือน ถ้า salaries ไม่มีสมาชิก ให้คืนค่าเป็น 0
+```
+let salaries = {
+  "John": 100,
+  "Pete": 300,
+  "Mary": 250
+};
+
+alert( sumSalaries(salaries) ); // 650
+```
+2.	ให้เขียนฟังก์ชัน count(obj) ที่คืนค่าเป็นจำนวน properties ใน object
+```
+let user = {
+  name: 'John',
+  age: 30
+};
+
+alert( count(user) ); // 2
+```
